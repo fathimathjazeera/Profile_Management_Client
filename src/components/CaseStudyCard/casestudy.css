@@ -1,0 +1,20 @@
+.case-study-container{
+    margin-bottom: 50px;
+}
+.case-study-flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+.case-study-title{
+    font-size: 20px;
+    width: 160px;
+    font-weight: bold;
+}
+.case-image-flexbox{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+.case-image-flexbox img{
+    height: 300px;
+}

@@ -1,0 +1,49 @@
+.background-container{
+    margin-bottom: 80px;
+    width: 100%;
+  }
+  .cover-image {
+    position: relative;
+  }
+  .cover-photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+  }
+  .avatar{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;      
+    border-radius: 50%;  
+  }
+  .left-cover-image {
+    margin-right: 250px;
+  }
+  .contact-box {
+    display: flex;
+    margin-left: -200px;
+    color: white;
+    gap: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .middle-cover-image {
+    margin-right: 200px;
+  }
+  .right-cover-image {
+    margin-left: 100px;
+  }
+  .resume-button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }

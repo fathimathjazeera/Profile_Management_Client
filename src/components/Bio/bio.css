@@ -1,0 +1,47 @@
+.bio-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+}
+.sub-bio {
+  margin-bottom: 20px;
+}
+.visual-btn {
+  background-color: #f58232;
+  color: white;
+  width: 289px;
+  padding: 5px 5px 5px 5px;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.skills-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #e8e8ed;
+  border-radius: 12px;
+  padding-right: 15px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.biography {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.biography p {
+  margin-bottom: 25px;
+}

@@ -1,0 +1,26 @@
+.navbar {
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+  }
+  .logo {
+    margin-left: 100.5px;
+  }
+  .logo,
+  .prme-pic,
+  .accredit-pic {
+    height: 40px;
+  }
+  .right-nav {
+    display: flex;
+    gap: 20px;
+    margin-right: 100.5px;
+  }
+  

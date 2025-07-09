@@ -1,0 +1,43 @@
+.footer-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #F7F6F5;
+  }
+  .footer-image-container{
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+  }
+  .footer-image{
+     height: 150px;
+     width: 800px;
+    border-radius: 17px;
+    position: relative;
+  }
+  .connect-text,.download-btn{
+    position: absolute;
+  }
+  .footer-container p{
+      color: #8E8E93;
+  }
+  .footer-contact-sec{
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+  }
+  .left-sec,.right-sec{
+      display: flex;
+      gap: 20px;
+  }
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #BDBEC2; /* or any color you want */
+    width: 50%; /* or a custom width like 50% */
+    margin: 20px auto; /* space around and center */
+  }
+  
+  

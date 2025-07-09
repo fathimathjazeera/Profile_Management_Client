@@ -1,0 +1,16 @@
+.visual-resume-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.visual-image{
+height: 400px; /* makes it circular */
+  border-radius: 20px;
+}
+.visual-resume-title{
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
