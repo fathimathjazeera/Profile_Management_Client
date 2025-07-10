@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: flex-end;
     position: absolute;
-    top: 30%;
+    top: 33%;
     left: 25%;
   }
   .avatar{
@@ -38,6 +38,7 @@
   }
   .resume-button {
     color: white;
+    background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;
     padding-top: 5px;

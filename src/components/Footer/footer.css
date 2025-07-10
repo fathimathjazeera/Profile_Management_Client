@@ -10,27 +10,28 @@
       display: flex;
       justify-content: center; 
       align-items: center; 
+      position: relative;
+
   }
   .footer-image{
      height: 150px;
      width: 800px;
     border-radius: 17px;
-    position: relative;
   }
   .connect-text,.download-btn{
     position: absolute;
   }
-  .footer-container p{
-      color: #8E8E93;
-  }
+
   .footer-contact-sec{
       display: flex;
       justify-content: space-between;
       width: 50%;
+      margin-top: 35px;
   }
   .left-sec,.right-sec{
       display: flex;
       gap: 20px;
+      color: #8E8E93;
   }
   hr {
     border: none;
@@ -40,4 +41,26 @@
     margin: 20px auto; /* space around and center */
   }
   
-  
+  .connect-text{
+    color: white;
+font-weight: bold;
+font-size: 22px;
+top: 20%;
+  }
+  .download-btn{
+top: 60%;
+    background-color: white;
+    color: #F58232;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 20px;
+    border: none;
+  }
+.right-sec button{
+background-color: transparent;
+color: #8E8E93;
+border: 1px solid #8E8E93;
+padding: 5px;
+border-radius: 15px;
+  }

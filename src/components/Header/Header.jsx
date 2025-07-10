@@ -13,7 +13,7 @@ const Header = ({profile}) => {
 
 </div>
 <div className='middle-cover-image'>
-  
+
  <img src={profile.avatar} className='avatar'/>
 </div>
 <div className='right-cover-image'>

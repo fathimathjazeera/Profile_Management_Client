@@ -15,14 +15,14 @@ const Footer = () => {
 </div>
 
 <div className='right-sec'>
-<p>Github</p>
-<p>Linkedin</p>
+<button>Github</button>
+<button>Linkedin</button>
 </div>
 
 </div>
 
 <hr style={{color:'black'}}/>
-<p>®2024 MAHE B'LRU</p>
+<p style={{color: '#8E8E93'}}>®2024 MAHE B'LRU</p>
     </div>
   )
 }
