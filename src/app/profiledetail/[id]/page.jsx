@@ -9,7 +9,7 @@ import CaseStudy from '@/components/CaseStudyCard/CaseStudy';
 import VisualResume from '@/components/VisualResumeCard/VisualResume';
 import Footer from '@/components/Footer/Footer';
 import axios from 'axios';
-
+import './profiledetail.css'
 const page = ({params}) => {
 
   const {id} = params
