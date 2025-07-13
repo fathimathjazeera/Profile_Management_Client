@@ -1,6 +1,9 @@
-.prograamming-card-container{
+.programming-card-container{
     display: flex;
     justify-content: center;
     gap: 60px;
     margin-bottom: 60px;
+}
+programming-card-container img{
+    height: 60px;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import './programmingcard.css'
 const ProgrammingCard = () => {
   return (
-    <div className='prograamming-card-container'>
+    <div className='programming-card-container'>
     <img src='/photoshop.png'/>
     <img src='/js.png'/>
     <img src='/css.png'/>
